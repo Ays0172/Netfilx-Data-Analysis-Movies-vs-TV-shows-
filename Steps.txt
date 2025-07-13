@@ -1,0 +1,10 @@
+NETFLIX DATASET
+
+Step Name                       |         WHat we will do   
+                                |
+Load the data                   |   Read the CSV file suing pandas
+Clean the data                  |   Handles missing values, remove duplicates, fix columns, if needed
+Understand the data             |   Use head(), info(), describe() to explore the dataset
+Identify the crux               |   What inferences you want to draw out?(Eg; content rating, Movies VS TV shows)
+Visualise the data (EDA)        |   Use Matplotlib to draw charts and draw inferences, using visual aids
+Save the plots                  |   Use plt.savefig() for your reports

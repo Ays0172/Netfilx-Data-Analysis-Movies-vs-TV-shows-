@@ -80,19 +80,40 @@ See `Steps.txt` for a high-level workflow:
 - **Python 3.8+**
 - **Pandas** for data handling
 - **Matplotlib** for visualizations
-- **Jupyter Notebook** for analysis
+- **Jupyter Notebook** for interactive analysis
+- **Streamlit** for interactive web dashboard
 
 ---
 
-## 📈 Run the Analysis
+## 📈 How to Run
 
-Clone the repo and open `Analysis.ipynb` in Jupyter Notebook or VSCode.  
-All code and charts are ready to run!
-
+First, clone the repository and navigate into it:
 ```bash
 git clone https://github.com/<yourusername>/<your-repo>.git
 cd <your-repo>
+```
+
+Choose your preferred way to explore the project:
+
+### 1. Jupyter Notebook
+Open `Analysis.ipynb` in Jupyter Notebook or VSCode. All code and charts are ready to run!
+```bash
 jupyter notebook Analysis.ipynb
+```
 
+### 2. Python Script
+Run the analysis directly from the terminal:
+```bash
+python Analysis.py
+```
 
-Dataset - https://www.kaggle.com/datasets/shivamb/netflix-shows
+### 3. Streamlit Web App
+Launch the interactive Streamlit dashboard:
+```bash
+cd Streamlit
+streamlit run app.py
+```
+
+---
+
+Dataset - [Netflix Shows Dataset (Kaggle)](https://www.kaggle.com/datasets/shivamb/netflix-shows)
